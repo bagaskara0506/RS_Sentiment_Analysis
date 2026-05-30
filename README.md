@@ -78,6 +78,7 @@ Berikut adalah struktur direktori dari proyek analisis sentimen ini :
 ## Teknologi yang Digunakan
 
 **Bahasa Pemrograman :** Python 3.13.2
+
 **Library Data Extraction (Web Scraping) :**
 
 - Selenium (`from selenium import webdriver`)
@@ -99,7 +100,9 @@ Berikut adalah struktur direktori dari proyek analisis sentimen ini :
 - WordCloud (`from wordcloud import WordCloud`)
 
 **Data Visualization & Dashboarding :** Tableau Public
+
 **Code Editor / IDE :** Visual Studio Code (VS Code)
+
 **Version Control :** Git & GitHub
 
 ## Tautan :
