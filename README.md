@@ -8,21 +8,21 @@ Proyek ini bertujuan untuk mengekstraksi, membersihkan, dan menganalisis ulasan 
 
 Berdasarkan dashboard visualisasi yang telah dibangun menggunakan 780 ulasan, berikut adalah wawasan utama yang didapatkan :
 
-Pemimpin Kepuasan (Top Performers) : Mayapada Hospital Tangerang (MHTG) memimpin mutlak dengan rata-rata rating 4.8 / 5.0 dan mendominasi proporsi sentimen positif hingga 94.94%.
+- Pemimpin Kepuasan (Top Performers) : Mayapada Hospital Tangerang (MHTG) memimpin mutlak dengan rata-rata rating 4.8 / 5.0 dan mendominasi proporsi sentimen positif hingga 94.94%.
 
-RS Sari Asih Karawaci menyusul di posisi kedua dengan rating 4.6 dan sentimen positif sebesar 87.34%.
+- RS Sari Asih Karawaci menyusul di posisi kedua dengan rating 4.6 dan sentimen positif sebesar 87.34%.
 
-Area Perbaikan Kritis (Bottleneck): Tiga rumah sakit lainnya memerlukan perhatian serius terkait kepuasan pasien, di mana tingkat sentimen negatif menembus angka di atas 30%:
+- Area Perbaikan Kritis (Bottleneck): Tiga rumah sakit lainnya memerlukan perhatian serius terkait kepuasan pasien, di mana tingkat sentimen negatif menembus angka di atas 30%:
 
-Ciputra Hospital CitraRaya & Primaya Hospital Tangerang : Rata-rata rating terendah (3.6) dengan tingkat keluhan tertinggi (Ciputra Hospital CitraRaya : 32.91% & Primaya Hospital Tangerang : 31.76%).
+- Ciputra Hospital CitraRaya & Primaya Hospital Tangerang : Rata-rata rating terendah (3.6) dengan tingkat keluhan tertinggi (Ciputra Hospital CitraRaya : 32.91% & Primaya Hospital Tangerang : 31.76%).
 
-RS EMC Tangerang: Rata-rata rating 3.7 dengan keluhan sebesar 31.65%.
+- RS EMC Tangerang : Rata-rata rating 3.7 dengan keluhan sebesar 31.65%.
 
-Akar Masalah (Root Cause Analysis): Berdasarkan visualisasi WordCloud dan eksplorasi data pada ulasan berlabel Negatif (Bintang 1 & 2), keluhan pasien terpusat pada Manajemen Waktu, Pelayanan Administrasi, Bad Hospitality frontliner. Kata kunci utama yang mendominasi keluhan adalah: "jam", "Pelayanan", "dokter", "perawat","tunggu", "antrian", "farmasi", "Pendaftaran" dan "BPJS".
+- Akar Masalah (Root Cause Analysis) : Berdasarkan visualisasi WordCloud dan eksplorasi data pada ulasan berlabel Negatif (Bintang 1 & 2), keluhan pasien terpusat pada Manajemen Waktu, Pelayanan Administrasi, Bad Hospitality frontliner. Kata kunci utama yang mendominasi keluhan adalah: "jam", "Pelayanan", "dokter", "perawat","tunggu", "antrian", "farmasi", "Pendaftaran" dan "BPJS".
 
 ### Business Recommendations :
 
-Rekomendasi tindakan strategis yang dapat diambil oleh pihak manajemen Rumah Sakit (terutama Ciputra, Primaya, dan EMC) adalah:
+Rekomendasi tindakan strategis yang dapat diambil oleh pihak manajemen Rumah Sakit (terutama Ciputra, Primaya, dan EMC) adalah :
 
 - Optimalisasi Waktu Tunggu (Queue Management): Mengevaluasi SLA (Service Level Agreement) untuk pendaftaran poli, pengambilan obat di farmasi, serta ketepatan waktu kedatangan dokter sesuai jadwal.
 
@@ -74,6 +74,33 @@ Berikut adalah struktur direktori dari proyek analisis sentimen ini :
 - scraper_gmaps.py : Skrip untuk melakukan scraping review dari Google Maps.
 - Visualisasi Tableau/ : Folder file tableau pembuatan dashboard.
 - RS_Sentiment_Analysis.twbx : File workbook Tableau.
+
+## Teknologi yang Digunakan
+
+**Bahasa Pemrograman :** Python 3.13.2
+**Library Data Extraction (Web Scraping) :**
+
+- Selenium (`from selenium import webdriver`)
+- BeautifulSoup4 (`from bs4 import BeautifulSoup`)
+- WebDriver Manager (`from webdriver_manager.chrome import ChromeDriverManager`)
+
+**Library Data Manipulation & Cleaning :**
+
+- Pandas (`import pandas as pd`)
+- Regex/Regular Expressions (`import re`)
+
+**Library Natural Language Processing (NLP) :**
+
+- NLTK (`import nltk` dan `from nltk.corpus import stopwords`)
+
+**Library Exploratory Data Analysis (EDA) & Visualisasi :**
+
+- Matplotlib (`import matplotlib.pyplot as plt`)
+- WordCloud (`from wordcloud import WordCloud`)
+
+**Data Visualization & Dashboarding :** Tableau Public
+**Code Editor / IDE :** Visual Studio Code (VS Code)
+**Version Control :** Git & GitHub
 
 ## Tautan :
 
