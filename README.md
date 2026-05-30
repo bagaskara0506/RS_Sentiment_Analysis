@@ -109,6 +109,6 @@ Berikut adalah struktur direktori dari proyek analisis sentimen ini :
 
 **Lihat Dashboard Interaktif HOSPITAL PATIENT SENTIMENT ANALYSIS :** [View on Tableau Public](https://public.tableau.com/app/profile/satria.bagaskara4685/viz/RS_Sentiment_Analysis/HOSPITALPATIENTSENTIMENTANALYSIS)
 
-**Lihat Artikel :** [Medium](https://medium.com/@satriadevopsindonesia)
+**Lihat Artikel :** [Medium](https://medium.com/@satriadevopsindonesia/hospital-patient-sentiment-analysis-using-the-google-maps-review-data-scraping-method-de76755d8c2e)
 
 **Lihat Profesional Karir :** [linkedin](https://www.linkedin.com/in/satria-bagaskara/)
